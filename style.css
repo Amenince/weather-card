@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poiret One", cursive;
+}
+
+body {
+  background-image: linear-gradient(rgb(40, 22, 83), rgb(83, 19, 62));
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.weather-container {
+  color: #fff;
+  background-image: linear-gradient(rgb(78, 34, 182), rgb(173, 24, 123));
+  width: 300px;
+  height: 400px;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+  padding: 40px;
+  border: rgb(129, 108, 247) solid 2px;
+  box-shadow: 0 0 5px rgb(172, 17, 233);
+  border-radius: 20px;
+}
+
+.name-of-city > p {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#city-update {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#btn {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icon {
+  padding-bottom: 40px;
+}
+
+.city {
+  font-size: 30px;
+}
+
+.weather {
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.temp {
+  font-size: 30px;
+  padding-top: 40px;
+}
